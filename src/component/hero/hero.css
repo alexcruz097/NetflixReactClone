@@ -1,0 +1,81 @@
+/* hero container*/
+.hero-container {
+    height: 29.7rem;
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/5fd505fa-f425-4a18-b3cc-00dd2638f541/163803c4-de32-4f1f-9fd5-d28804b7549c/US-en-20220704-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: 50% 100%;
+    box-shadow: -7px 2px 26px 11px rgba(0, 0, 0, 0.77) inset;
+    -webkit-box-shadow: -7px 2px 26px 11px rgba(0, 0, 0, 0.77) inset;
+    -moz-box-shadow: -7px 2px 26px 11px rgba(0, 0, 0, 0.77) inset;
+    background-size: 55rem;
+}
+
+/* hero nav elements */
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+
+}
+
+nav svg {
+    width: 6rem;
+    height: auto;
+}
+
+nav button {
+    color: white;
+    font-size: .9rem;
+    background-color: #E50914;
+    border: none;
+    border-radius: .3rem;
+    padding: .4rem .6rem;
+    font-weight: 500;
+}
+
+/* hero main section */
+
+.hero-main {
+    color: white;
+    width: 85vw;
+    margin: auto;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.hero-main h1 {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.hero-main input {
+    width: 100%;
+    height: 2.875rem;
+    margin-top: 15px;
+    margin-top: 14px;
+    padding: 10px 10px 10px;
+    color: #8c8c8c;
+    font-size: 14px;
+}
+
+.hero-main p {
+    font-size: 1.125rem;
+}
+
+.hero-main p:first-of-type {
+    margin: 19px 0;
+}
+
+.hero-main button {
+    background-color: #E50914;
+    color: white;
+    border: none;
+    font-size: .875rem;
+    font-weight: 500;
+    padding: .6rem 1rem;
+    margin-top: 9px;
+}
