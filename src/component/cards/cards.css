@@ -1,0 +1,45 @@
+.card-container {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 3rem 0;
+    position: relative;
+
+}
+
+.card-header {
+    font-size: 1.625rem;
+}
+
+.card-subtitle {
+    font-size: 1.125rem;
+    margin: .84375rem 0 4.5px;
+}
+
+.card-img {
+    max-width: 90%;
+    height: auto;
+    margin: -.6rem 0;
+    z-index: 2;
+    position: relative;
+}
+
+.card-animation {
+    position: absolute;
+    object-fit: contain;
+    z-index: 1;
+    width: 4rem;
+}
+
+/* donwload card */
+.downloadANIME{
+    border: 2px solid gray;
+    position: absolute;
+    width: 90vw;
+    display: flex;
+    
+}
+.downloadANIME-img{
+    position: relative;
+max-width: 1rem;
+}

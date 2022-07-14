@@ -1,12 +1,12 @@
 /* hero container*/
 .hero-container {
-    height: 29.7rem;
-    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/5fd505fa-f425-4a18-b3cc-00dd2638f541/163803c4-de32-4f1f-9fd5-d28804b7549c/US-en-20220704-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    height: 29.2rem;
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/1ef84595-1fdb-4404-adac-15215ceeb3ae/9b7e4892-200e-4740-909b-cdd33763fe9f/US-en-20220711-popsignuptwoweeks-perspective_alpha_website_small.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-position: 50% 100%;
+    background-position: 50.1% 100%;
     box-shadow: -7px 2px 26px 11px rgba(0, 0, 0, 0.77) inset;
     -webkit-box-shadow: -7px 2px 26px 11px rgba(0, 0, 0, 0.77) inset;
     -moz-box-shadow: -7px 2px 26px 11px rgba(0, 0, 0, 0.77) inset;
@@ -18,7 +18,7 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1rem 1.5rem;
+    padding: 1.175rem 1.5rem 0px;
 
 }
 
@@ -44,7 +44,7 @@ nav button {
     width: 85vw;
     margin: auto;
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 5rem;
 }
 
 .hero-main h1 {
@@ -76,6 +76,6 @@ nav button {
     border: none;
     font-size: .875rem;
     font-weight: 500;
-    padding: .6rem 1rem;
-    margin-top: 9px;
+    padding: 9.6px 1rem;
+    margin-top:1.14rem;
 }
