@@ -1,0 +1,40 @@
+footer {
+  background-color: black;
+  color: #737373;
+  padding: 3rem;
+}
+.footer-header {
+  padding-bottom: 2rem;
+  font-size: 1rem;
+
+}
+.footer-links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  list-style: none;
+}
+.footer-links li{
+  margin:  0 0 16px;
+  padding: 0px 12px 0px 0px;
+}
+.footer-links li a {
+  text-decoration: none;
+  color: #737373;
+  font-size: 13px;
+}
+.select-language{
+  padding: 12px 26px 12px 50px;
+  background-color: black;
+  color: #737373;
+
+}
+.select-wrap{
+  position: relative;
+}
+.select-wrap::before{
+content: "\f0ac";
+color: #737373;
+position: absolute;
+top: 12px;
+left: 10px;
+}
