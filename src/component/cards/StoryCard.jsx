@@ -20,7 +20,7 @@ function StoryCard(props) {
         <div
           style={
             props.downloadANIME === ""
-              ? { display: "block" }
+              ? {  }
               : { display: "none" }
           }
           className="downloadANIME"
@@ -31,8 +31,9 @@ function StoryCard(props) {
           />
           <p>
             Stranger Things <br />
-            Downloading...
+           <spam className="download-blue">Downloading...</spam>
           </p>
+          <img className="download-gif" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif" alt="download animation" />
         </div>
       </div>
     </div>

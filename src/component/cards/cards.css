@@ -1,45 +1,66 @@
 .card-container {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 3rem 0;
-    position: relative;
-
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 53px 5%;
+  position: relative;
 }
 
 .card-header {
-    font-size: 1.625rem;
+  font-size: 1.625rem;
 }
 
 .card-subtitle {
-    font-size: 1.125rem;
-    margin: .84375rem 0 4.5px;
+  font-size: 1.125rem;
+  margin: 0.84375rem 0 4.5px;
 }
 
 .card-img {
-    max-width: 90%;
-    height: auto;
-    margin: -.6rem 0;
-    z-index: 2;
-    position: relative;
+  max-width: 95vw;
+  height: auto;
+  margin: -0.5rem 0;
+  z-index: 2;
+
 }
 
 .card-animation {
-    position: absolute;
-    object-fit: contain;
-    z-index: 1;
-    width: 4rem;
+  position: absolute;
+  object-fit: contain;
+  z-index: 1;
+  width: 4rem;
 }
 
 /* donwload card */
-.downloadANIME{
-    border: 2px solid gray;
-    position: absolute;
-    width: 90vw;
-    display: flex;
-    
+.downloadANIME {
+  border: 2px solid hsla(0,0%,100%,.25);
+  background-color: black;
+  border-radius: 7px;
+  position: absolute;
+  width: 74vw;
+  bottom: 4.59rem;
+  left: 3.5rem;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 10px;
+text-align: start;
+
 }
-.downloadANIME-img{
-    position: relative;
-max-width: 1rem;
+.downloadANIME-img {
+  max-width: 3rem;
+max-height: 3rem;
+}
+.download-blue{
+    color: #0071EB;
+font-size: 12px;
+}
+.downloadANIME p{
+    font-weight: 600;
+    font-size: .9rem;
+}
+.download-gif{
+    width: 3em;
+    height: 3em;
+    
 }
