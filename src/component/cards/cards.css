@@ -20,47 +20,92 @@
   height: auto;
   margin: -0.5rem 0;
   z-index: 2;
-
+  position: relative;
 }
-
+.video-img-animation-container {
+  position: relative;
+}
 .card-animation {
   position: absolute;
-  object-fit: contain;
+  left: 3em;
+  top: 3em;
   z-index: 1;
-  width: 4rem;
+  width: 16.2rem;
 }
+/* watch animation video */
+.watch-animation-video{
+  width: 14rem;
+  top: 1.65rem;
+  left: 4rem;
 
+}
 /* donwload card */
 .downloadANIME {
-  border: 2px solid hsla(0,0%,100%,.25);
+  border: 2px solid hsla(0, 0%, 100%, 0.25);
   background-color: black;
   border-radius: 7px;
   position: absolute;
   width: 74vw;
   bottom: 4.59rem;
   left: 3.5rem;
-  z-index: 1;
+  z-index: 3;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 4px 10px;
-text-align: start;
-
+  text-align: start;
 }
 .downloadANIME-img {
-  max-width: 3rem;
-max-height: 3rem;
+  width: 3rem;
+  height: 3rem;
 }
-.download-blue{
-    color: #0071EB;
-font-size: 12px;
+.download-blue {
+  color: #0071eb;
+  font-size: 12px;
 }
-.downloadANIME p{
-    font-weight: 600;
-    font-size: .9rem;
+.downloadANIME p {
+  font-weight: 600;
+  font-size: 0.9rem;
 }
-.download-gif{
-    width: 3em;
-    height: 3em;
-    
+.download-gif {
+  width: 3em;
+  height: 3em;
 }
+
+/* media queries  */
+/* media queries  */
+@media (min-width: 390px) { 
+  .downloadANIME {
+    width: 70vw;
+    left: 4rem;
+    padding: 4px 10px;
+ 
+  }
+  .downloadANIME-img {
+
+    width: 2.5rem;
+    height: 3.2rem;
+  }
+  .card-animation{
+    width: 17.4rem;
+  }
+  .watch-animation-video{
+    width: 14.87rem;
+  }
+ }
+
+@media (min-width: 400px) { 
+ 
+  .downloadANIME {
+    width: 68vw;
+    left: 4.6rem;
+    padding: 4px 10px;
+ 
+  }
+  .card-animation{
+    width: 18.3rem;
+  }
+  .watch-animation-video{
+    width: 15.7rem;
+  }
+ }

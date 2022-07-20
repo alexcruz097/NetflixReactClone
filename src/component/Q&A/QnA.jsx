@@ -4,7 +4,7 @@ function QnA() {
   const [btnClick, setbtnClick] = useState(false);
 
   let controlClick = (e) => {
-    console.log(e.target)
+    console.log(e.target);
     if (!e.target.nextElementSibling.classList.contains("show")) {
       e.target.nextElementSibling.classList.add("show");
       e.target.lastChild.classList.add("rotate");
