@@ -33,11 +33,10 @@
   width: 16.2rem;
 }
 /* watch animation video */
-.watch-animation-video{
+.watch-animation-video {
   width: 14rem;
   top: 1.65rem;
   left: 4rem;
-
 }
 /* donwload card */
 .downloadANIME {
@@ -74,38 +73,75 @@
 
 /* media queries  */
 /* media queries  */
-@media (min-width: 390px) { 
+@media (min-width: 390px) {
   .downloadANIME {
     width: 70vw;
     left: 4rem;
     padding: 4px 10px;
- 
   }
   .downloadANIME-img {
-
     width: 2.5rem;
     height: 3.2rem;
   }
-  .card-animation{
+  .card-animation {
     width: 17.4rem;
   }
-  .watch-animation-video{
+  .watch-animation-video {
     width: 14.87rem;
   }
- }
+}
 
-@media (min-width: 400px) { 
- 
+@media (min-width: 400px) {
   .downloadANIME {
     width: 68vw;
     left: 4.6rem;
     padding: 4px 10px;
- 
   }
-  .card-animation{
+  .card-animation {
     width: 18.3rem;
   }
-  .watch-animation-video{
+  .watch-animation-video {
     width: 15.7rem;
   }
- }
+
+  @media (min-width: 500px) {
+    .card-subtitle {
+      position: relative;
+      z-index: 4;
+    }
+    .card-img {
+      max-width: 90vw;
+      height: auto;
+      margin: -2rem;
+      padding-bottom: 1.5rem;
+    }
+    .card-animation {
+      width: 23rem;
+      top: 2rem;
+      left: 3.4rem;
+    }
+    /* donwload card */
+    .downloadANIME {
+      bottom: 5rem;
+      padding: 9px 10px;
+      width: 60vw;
+      left: 5.7rem;
+      padding: 4px 10px;
+    }
+    .downloadANIME-img {
+      width: 2.3rem;
+      height: 3rem;
+    }
+    .card-img {
+      padding-bottom: 1.4rem;
+    }
+    /* custom style for the download image to add padding */
+    .download-img-style {
+      padding-bottom: 2rem;
+    }
+    .watch-animation-video {
+      width: 18rem;
+      left: 4.5rem;
+    }
+  }
+}

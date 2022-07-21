@@ -7,7 +7,12 @@ function StoryCard(props) {
       <p className="card-subtitle">{props.subtitle}</p>
       <div className="card-images">
         <div className="video-img-animation-container">
-          <img className="card-img" src={props.cardIMG} alt={props.alt} />
+          <img className={
+            props.downloadStyle === "download-img-style"
+            ? "card-img download-img-style" 
+            : "card-img" 
+            }
+             src={props.cardIMG} alt={props.alt} />
           {/* terminary operation to display video if it is an animation or a regular image */}
           <video
             style={

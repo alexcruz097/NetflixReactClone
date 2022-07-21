@@ -69,10 +69,47 @@ nav button {
 
 .hero-main button {
   background-color: #e50914;
+  background-image: linear-gradient(180deg,#e50914,#db0510);
   color: white;
   border: none;
   font-size: 0.875rem;
   font-weight: 500;
   padding: 9.6px 1rem;
   margin-top: 1.14rem;
+}
+
+@media (min-width: 500px)  {
+  /* hero container*/
+.hero-container {
+  background:linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.2)), url("https://assets.nflxext.com/ffe/siteui/vlv3/3a073c5f-0160-4d85-9a42-6f59aa4b64b9/3187860d-b0b5-4d82-88c3-034979c38e8b/US-en-20220718-popsignuptwoweeks-perspective_alpha_website_small.jpg");
+  height: 31.5rem;
+  background-position: 50.1% 100%;
+  background-size: 50rem;
+
+}
+/* hero main section */
+
+.hero-main {
+
+  width: 90vw;
+  
+  margin-top: 5.4rem;
+}
+
+.hero-main h1 {
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.hero-main input {
+ height: 2.875rem;
+ margin-top: 18px;
+}
+.hero-main button {
+
+  font-size: 1rem;
+  font-weight: 500;
+  padding: 9.6px 1rem;
+  margin-top: .8rem;
+}
 }
