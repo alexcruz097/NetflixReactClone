@@ -11,7 +11,12 @@ function StoryCard(props) {
             props.downloadStyle === "download-img-style"
             ? "card-img download-img-style" 
             : "card-img" 
-            }
+           }
+           style={
+            props.watchImgStyle==="custom"
+            ? {marginTop: "1rem"}
+            : {}
+          }
              src={props.cardIMG} alt={props.alt} />
           {/* terminary operation to display video if it is an animation or a regular image */}
           <video

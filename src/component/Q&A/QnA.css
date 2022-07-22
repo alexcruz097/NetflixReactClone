@@ -95,3 +95,69 @@
   font-size: 1rem;
   font-weight: 100;
 }
+@media (min-width: 500px) {
+
+  .QnA-section-container {
+    padding: 52px 0px;
+  }
+  .question-container {
+    padding: 15.2px 39.6px 15.2px 21.6px;
+    margin-top: 10px;
+  }
+  
+  .question {
+    font-size: 18px;
+    border: none;
+    background-color: #303030;
+    color: white;
+  }
+  .answer {
+    padding: 21.6px;
+    background-color: #303030;
+    color: white;
+    font-size: 18px;
+    display: none;
+    margin-top: 1px;
+  }
+  
+  /* form */
+  .QnA-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .QnA-form h3 {
+    text-align: center;
+    padding: 0px 37.2856px;
+    font-weight: 400;
+    padding-top: 1.5rem;
+    font-size: 18px;
+  }
+  
+  .QnA-form input {
+    width: 90%;
+    height: 2.875rem;
+    margin-top: 15px;
+    margin-top: 14px;
+    padding: 10px 10px 10px;
+    color: #8c8c8c;
+    font-size: 14px;
+  }
+  
+  .QnA-form button {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 9.6px 1rem;
+    margin-top: 1.14rem;
+  }
+  
+  .QnA-form button::after {
+    content: ">";
+    font-size: 1rem;
+    font-weight: 100;
+  }
+}

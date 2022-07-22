@@ -137,11 +137,13 @@
     }
     /* custom style for the download image to add padding */
     .download-img-style {
-      padding-bottom: 2rem;
+      padding-bottom: .9rem;
     }
+  
     .watch-animation-video {
       width: 18rem;
       left: 4.5rem;
     }
+  
   }
 }
