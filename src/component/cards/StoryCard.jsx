@@ -46,7 +46,7 @@ function StoryCard(props) {
             className="downloadANIME-img"
             src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/boxshot.png"
           />
-          <p>
+          <p className="download-animation-action">
             Stranger Things <br />
             <spam className="download-blue">Downloading...</spam>
           </p>

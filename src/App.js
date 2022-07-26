@@ -20,7 +20,7 @@ function App() {
 
       <hr />
       <StoryCard 
-        title="Download your shows to watch offline.."
+        title="Download your shows to watch offline."
         subtitle="Save your favorites easily and always have something to watch." 
         cardIMG="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
         downloadANIME="" 
