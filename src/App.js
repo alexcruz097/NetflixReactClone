@@ -16,8 +16,8 @@ function App() {
         title="Enjoy on your TV."
         subtitle="Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more." 
         cardIMG="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/tv.png" 
-        cardANIME="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"/>
-
+        cardANIME="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-0819.m4v"
+       />
       <hr />
       <StoryCard 
         title="Download your shows to watch offline."
@@ -25,6 +25,7 @@ function App() {
         cardIMG="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/mobile-0819.jpg"
         downloadANIME="" 
         downloadStyle="download-img-style"
+        order="true"
         />
 
       <hr />
@@ -42,6 +43,7 @@ function App() {
         subtitle="Send kids on adventures with their favorite characters in a space made just for them—free with your membership." 
         cardIMG="https://occ-0-3997-3996.1.nflxso.net/dnm/api/v6/19OhWN2dO19C9txTON9tvTFtefw/AAAABfpnX3dbgjZ-Je8Ax3xn0kXehZm_5L6-xe6YSTq_ucht9TI5jwDMqusWZKNYT8DfGudD0_wWVVTFLiN2_kaQJumz2iivUWbIbAtF.png?r=11f"
      watchImgStyle="custom"
+     order="true"
      />
       <hr />
       <QnA />

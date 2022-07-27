@@ -133,7 +133,6 @@
     font-size: 18px;
     border: none;
     background-color: #303030;
-
   }
 
   .answer {
@@ -197,11 +196,10 @@
   }
 
   /* form */
-  .QnA-form input{
-  width: 105%;
+  .QnA-form input {
+    width: 105%;
   }
   .QnA-form h3 {
-    
     padding: 0px 70.2856px;
     padding-top: 1.7rem;
   }
@@ -217,14 +215,13 @@
   }
 
   .question {
-    font-size: 20px;  
+    font-size: 20px;
   }
 
   .QnA-header {
     font-size: 40px;
     text-align: center;
-    margin-bottom:2rem;
-
+    margin-bottom: 2rem;
   }
 
   /* form */
@@ -252,10 +249,9 @@
     border: none;
     font-size: 16px;
     font-weight: 500;
-    padding:12.6px 1rem;
+    padding: 12.6px 1rem;
     margin-top: 1.14rem;
   }
-
 
   .answer {
     padding: 21.6px;
@@ -265,12 +261,59 @@
   /* form */
 
   .QnA-form h3 {
-    
     padding: 9px 70.2856px;
     padding-top: 1.7rem;
   }
   .QnA-form button {
     padding: 11px 1rem;
     margin-top: 1.1rem;
+  }
+}
+
+@media (min-width: 949px) {
+  .QnA-section-container {
+    padding: 70px 8rem;
+  }
+  .question-container {
+    height: 4.675rem;
+    width: 95%;
+    margin: 9px auto;
+  }
+  .question {
+    font-size: 26px;
+  }
+
+  .QnA-header {
+    font-size: 50px;
+
+    margin-bottom: 3rem;
+  }
+
+  /* form */
+
+  .QnA-form h3 {
+    padding: 0px 0px;
+    font-size: 19.2px;
+  }
+
+  .QnA-form input {
+    width: 50%;
+    margin: 14px 0px;
+    padding: 10px 10px 10px;
+    color: #8c8c8c;
+    font-size: 14px;
+  }
+
+  .QnA-form button {
+    display: inline-block;
+    font-size: 26px;
+
+    padding: 12.6px 1rem;
+    margin-top: 1.14rem;
+  }
+
+  .answer {
+    padding: 21.6px;
+    padding-bottom: 2.5rem;
   }
 }
