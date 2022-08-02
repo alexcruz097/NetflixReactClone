@@ -27,16 +27,16 @@
 }
 .card-animation {
   position: absolute;
-  left: 3em;
-  top: 3em;
+  left: 13vw;
+  top: 5vh;
   z-index: 1;
-  width: 16.2rem;
+  width: 69vw;
 }
 /* watch animation video */
 .watch-animation-video {
-  width: 14rem;
-  top: 1.65rem;
-  left: 4rem;
+  width: 59vw;
+  top: 1.65vh;
+  left: 17vw;
 }
 /* donwload card */
 .downloadANIME {
@@ -45,8 +45,8 @@
   border-radius: 7px;
   position: absolute;
   width: 74vw;
-  bottom: 4.59rem;
-  left: 3.5rem;
+  bottom: 7.5vh;
+  left: 15vw;
   z-index: 3;
   display: flex;
   justify-content: space-between;
@@ -86,9 +86,7 @@
   .card-animation {
     width: 17.4rem;
   }
-  .watch-animation-video {
-    width: 14.87rem;
-  }
+
 }
 
 @media (min-width: 400px) {
@@ -100,9 +98,7 @@
   .card-animation {
     width: 18.3rem;
   }
-  .watch-animation-video {
-    width: 15.7rem;
-  }
+
 
   @media (min-width: 500px) {
     .card-subtitle {

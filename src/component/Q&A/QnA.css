@@ -290,14 +290,16 @@
   }
 
   /* form */
-
+  .QnA-form {
+    display: block;
+  }
   .QnA-form h3 {
     padding: 0px 0px;
     font-size: 19.2px;
   }
 
   .QnA-form input {
-    width: 50%;
+    width: 70%;
     margin: 14px 0px;
     padding: 10px 10px 10px;
     color: #8c8c8c;
@@ -305,9 +307,7 @@
   }
 
   .QnA-form button {
-    display: inline-block;
     font-size: 26px;
-
     padding: 12.6px 1rem;
     margin-top: 1.14rem;
   }

@@ -4,7 +4,7 @@ function Hero() {
   return (
     <div className="hero-main">
       <div className="hero-inner-container">
-        <h1>Unlimited movies, TV shows, and more.</h1>
+        <h1 className="hero-header">Unlimited movies, TV shows, and more.</h1>
         <p>Watch anywhere. Cancel anytime.</p>
         <p>
           Ready to watch? Enter your email to create or restart your membership.
