@@ -3,6 +3,10 @@ footer {
   color: #737373;
   padding: 3rem;
 }
+.footer-inner{
+  max-width: 1200px;
+  margin: auto;
+}
 .footer-header {
   padding-bottom: 2rem;
   font-size: 1rem;

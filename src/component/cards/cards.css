@@ -5,7 +5,9 @@
   padding: 53px 5%;
   position: relative;
 }
-
+.card-outer{
+  background-color: black;
+}
 .card-header {
   font-size: 1.625rem;
 }
@@ -28,7 +30,7 @@
 .card-animation {
   position: absolute;
   left: 13vw;
-  top: 5vh;
+  top: 7vh;
   z-index: 1;
   width: 69vw;
 }
@@ -45,7 +47,7 @@
   border-radius: 7px;
   position: absolute;
   width: 74vw;
-  bottom: 7.5vh;
+  bottom: 9.5vh;
   left: 15vw;
   z-index: 3;
   display: flex;
@@ -70,23 +72,13 @@
   width: 3em;
   height: 3em;
 }
-
-/* media queries  */
-/* media queries  */
 @media (min-width: 390px) {
-  .downloadANIME {
-    width: 70vw;
-    left: 4rem;
-    padding: 4px 10px;
-  }
-  .downloadANIME-img {
-    width: 2.5rem;
-    height: 3.2rem;
-  }
-  .card-animation {
-    width: 17.4rem;
-  }
+/* donwload card */
+.downloadANIME {
 
+  bottom: 8vh;
+
+}
 }
 
 @media (min-width: 400px) {
@@ -97,6 +89,11 @@
   }
   .card-animation {
     width: 18.3rem;
+  }
+  .watch-animation-video {
+    width: 59vw;
+    top: 1.65vh;
+    left: 17vw;
   }
 
 
@@ -118,7 +115,7 @@
     }
     /* donwload card */
     .downloadANIME {
-      bottom: 5rem;
+      bottom: 9vh;
       padding: 9px 10px;
       width: 60vw;
       left: 5.7rem;
@@ -165,12 +162,12 @@
   }
   .card-animation {
     width: 65vw;
-    top: 4.3vh;
+    top: 6.4vh;
     left: 11vw;
   }
   /* donwload card */
   .downloadANIME {
-    bottom: 8.5vh;
+    bottom: 10vh;
     width: 55vw;
     left: 20vw;
     padding: 14px 10px;
@@ -182,7 +179,7 @@
 
   .watch-animation-video {
     width: 50vw;
-    left: 15vw;
+    left: 15.7vw;
     top: 3vh;
   }
 }
@@ -204,14 +201,14 @@
     padding: 0;
   }
   .card-animation {
-    width: 58vw;
+    width: 58.7vw;
     top: 6.3vh;
-    left: 14vw;
+    left: 13vw;
   }
   /* donwload card */
   .downloadANIME {
-    bottom: 9.5vh;
-    width: 52vw;
+    bottom: 10vh;
+    max-width: 52vw;
     left: 22vw;
   }
   .download-animation-action {
@@ -226,8 +223,16 @@
   /* watch animation video */
   .watch-animation-video {
     width: 50vw;
-    left: 17vw;
+    left: 18.4vw;
     top: 1.5vh;
+  }
+}
+@media (min-width: 849px) {
+  .watch-animation-video {
+  top: 1.5rem;
+    max-width: 24.5rem;
+    left: 24%;
+   
   }
 }
 @media (min-width: 949px) {
@@ -236,6 +241,8 @@
     justify-content: start;
     align-items: center;
     text-align: start;
+    max-width: 1200px;
+    margin: auto;
   }
   .change-order{
     order: 2;
@@ -263,7 +270,7 @@
   }
   .card-animation {
     width: 32vw;
-    top: 3.3vh;
+    top: 4.3vh;
     left: 5vw;
   }
   /* donwload card */
@@ -285,5 +292,37 @@
     width: 25vw;
     left: 7vw;
     top: 1.5vh;
+  }
+}
+@media (min-width: 1449px) {
+
+  .card-container {
+    padding: 70px 45px;
+  }
+ 
+  .card-animation {
+    max-width: 29rem;
+    top: 5rem;
+    left: 5rem;
+  }
+  /* donwload card */
+  .downloadANIME {
+    bottom: 6rem;
+    width: 23rem;
+    left: 10rem;
+  }
+  .download-animation-action {
+    margin-left: 1rem;
+    font-size: 1rem;
+  }
+  .download-gif {
+    width: 3rem;
+  }
+
+  /* watch animation video */
+  .watch-animation-video {
+    width: 25rem;
+    left: 7rem;
+    top: 2rem;
   }
 }

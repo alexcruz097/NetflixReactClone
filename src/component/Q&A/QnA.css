@@ -271,13 +271,22 @@
 }
 
 @media (min-width: 949px) {
+  .QnA-outer{
+    background-color: black;
+  }
   .QnA-section-container {
     padding: 70px 8rem;
+    max-width: 1200px;
+    margin: auto;
   }
   .question-container {
     height: 4.675rem;
     width: 95%;
     margin: 9px auto;
+  }
+  .answer{
+    width: 95%;
+    margin: auto;
   }
   .question {
     font-size: 26px;
@@ -292,6 +301,7 @@
   /* form */
   .QnA-form {
     display: block;
+    margin-top: 3.7rem;
   }
   .QnA-form h3 {
     padding: 0px 0px;
@@ -302,13 +312,15 @@
     width: 70%;
     margin: 14px 0px;
     padding: 10px 10px 10px;
+ height: 3.9rem;
     color: #8c8c8c;
     font-size: 14px;
+
   }
 
   .QnA-form button {
     font-size: 26px;
-    padding: 12.6px 1rem;
+    padding: 12px 1rem 1.5rem;
     margin-top: 1.14rem;
   }
 

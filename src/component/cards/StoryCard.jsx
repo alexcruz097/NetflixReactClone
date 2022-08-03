@@ -2,8 +2,8 @@ import React from "react";
 import "./cards.css";
 function StoryCard(props) {
   return (
+    <div className="card-outer">
     <div className="card-container">
-  
         <div
           className={
             props.order === "true"
@@ -68,7 +68,7 @@ function StoryCard(props) {
           </div>
         </div>
       </div>
-
+      </div>
   );
 }
 
